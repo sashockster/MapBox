@@ -1,4 +1,6 @@
-var geojson = [
+{
+  "type": "FeatureCollection",
+  "features": [  
   {
     "type": "Feature",
     "geometry": {
@@ -62,5 +64,6 @@ var geojson = [
       "district": "DENTON ISD"
       
     }
-  },
-];
+  }
+ ]
+}
