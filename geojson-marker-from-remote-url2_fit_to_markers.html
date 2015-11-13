@@ -30,10 +30,14 @@ var incidents = L.mapbox.featureLayer()
     .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-incidents.geojson')
     .addTo(map);
 
-var schools = L.mapbox.featureLayer()
-    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-schools.geojson')
+var schoolsPublic = L.mapbox.featureLayer()
+    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-schools-public.geojson')
     .addTo(map);
 
+var schoolsPrivate = L.mapbox.featureLayer()
+    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-schools-private.geojson')
+    .addTo(map);
+    
 // Especially with dynamic data, it's useful to automatically fit all markers
 // in the map bounds instead of guessing and checking center and zoom values
 
@@ -42,11 +46,23 @@ var schools = L.mapbox.featureLayer()
 // waiting for the ready event. If you don't load your markers with an async
 // method and instead set them with setGeoJSON or similar, you don't need
 // to do this.
-featureLayer.on('ready', function() {
+    schoolsPublic.on('ready', function() {
     // featureLayer.getBounds() returns the corners of the furthest-out markers,
     // and map.fitBounds() makes sure that the map contains these.
-    map.fitBounds(featureLayer.getBounds());
+    map.fitBounds(schools.getBounds());
 });
+    // center on clicked marker
+    schoolsPublic.on('click', function(e) {
+        map.panTo(e.layer.getLatLng());
+    });
+    schoolsPrivate.on('click', function(e) {
+        map.panTo(e.layer.getLatLng());
+    });
+    // center on clicked marker
+    incidents.on('click', function(e) {
+        map.panTo(e.layer.getLatLng());
+    });
+
 </script>
 </body>
 </html>
