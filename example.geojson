@@ -73,7 +73,7 @@
     "properties": {
       "title": "CORINTH MONTESSORI SCHOOL",
       "description": "<div style='color:green;'>This should be green.</div>",
-      "marker-color": "#fc4353",
+      "marker-color": "#07BA28",
       "marker-size": "large",
       "marker-symbol": "school",
       "street": "1300 E PECAN CREEK CIR",
@@ -94,7 +94,7 @@
     "properties": {
       "title": "LIBERTY CHRISTIAN SCHOOL",
       "description": "<div style='color:green;'>This should be green.</div>",
-      "marker-color": "#fc4353",
+      "marker-color": "#07BA28",
       "marker-size": "large",
       "marker-symbol": "school",
       "street": "1301 S US HIGHWAY 377",
