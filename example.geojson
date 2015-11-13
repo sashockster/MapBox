@@ -11,13 +11,13 @@ var geojson = [
       "marker-color": "#fc4353",
       "marker-size": "large",
       "marker-symbol": "school",
-      “street”: “7501 TEASLEY LN”,
-      “city”: “DENTON”,
-      “state”: “TX”,
-      “zip”: “76210”,
-      “county”: “DENTON”, 
-      “type”: “Public”,
-      “district”: “DENTON ISD”
+      "street": "7501 TEASLEY LN",
+      "city": "DENTON",
+      "state": "TX",
+      "zip": "76210",
+      "county": “DENTON", 
+      "type": "Public",
+      "district": "DENTON ISD"
     }
   },
   {
@@ -32,13 +32,13 @@ var geojson = [
       "marker-color": "#fc4353",
       "marker-size": "large",
       "marker-symbol": "school",
-      “street”: “9601 STACEE LN”,
-      “city”: “ARGYLE”,
-      “state”: “TX”,
-      “zip”: “76266”,
-      “county”: “DENTON”, 
-      “type”: “Public”,
-      “district”: “DENTON ISD”
+      "street": "9601 STACEE LN",
+      "city": "ARGYLE",
+      "state": "TX",
+      "zip": "76266",
+      "county": “DENTON", 
+      "type": "Public",
+      "district": "DENTON ISD"
     }
   },
   {
@@ -53,13 +53,14 @@ var geojson = [
       "marker-color": "#fc4353",
       "marker-size": "large",
       "marker-symbol": "school",
-      “street”: “1212 HICKORY CREEK RD”,
-      “city”: “DENTON”,
-      “state”: “TX”,
-      “zip”: “76210”,
-      “county”: “DENTON”, 
-      “type”: “Public”,
-      “district”: “DENTON ISD”
+      "street": "1212 HICKORY CREEK RD",
+      "city": "DENTON",
+      "state": "TX",
+      "zip": "76210",
+      "county": “DENTON", 
+      "type": "Public",
+      "district": "DENTON ISD"
+      
     }
   },
 ];
