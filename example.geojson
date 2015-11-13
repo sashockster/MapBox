@@ -15,7 +15,7 @@ var geojson = [
       "city": "DENTON",
       "state": "TX",
       "zip": "76210",
-      "county": “DENTON", 
+      "county": "DENTON", 
       "type": "Public",
       "district": "DENTON ISD"
     }
@@ -36,7 +36,7 @@ var geojson = [
       "city": "ARGYLE",
       "state": "TX",
       "zip": "76266",
-      "county": “DENTON", 
+      "county": "DENTON", 
       "type": "Public",
       "district": "DENTON ISD"
     }
@@ -57,7 +57,7 @@ var geojson = [
       "city": "DENTON",
       "state": "TX",
       "zip": "76210",
-      "county": “DENTON", 
+      "county": "DENTON", 
       "type": "Public",
       "district": "DENTON ISD"
       
