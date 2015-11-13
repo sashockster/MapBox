@@ -21,12 +21,7 @@ L.mapbox.accessToken = 'pk.eyJ1Ijoic2Nob29sZGFuZ2VycyIsImEiOiIwNWU5NzdkZGFlZTA5M
 var url = 'https://api.github.com/repos/gbernardo/SchoolDangers-MapBox/contents/example.geojson';
 //  The pattern for this url is https://api.github.com/repos/:owner/:repo/contents/:path
 
-//mapbox.js/test/manual/example.geojson
-//mapbox.js/docs/assets/data/eastcoast_cities.geojson
-// SchoolDangers-MapBox/example.geojson
-
-var map = L.mapbox.map('map', 'mapbox.streets')
-  .setView([0.3941, -78.2227], 7);
+var map = L.mapbox.map('map', 'mapbox.streets');
 
 function load() {
   // Fetch just the contents of a .geojson file from GitHub by passing

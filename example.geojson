@@ -17,7 +17,7 @@
       "city": "DENTON",
       "state": "TX",
       "zip": "76210",
-      "county": "DENTON", 
+      "county": "DENTON COUNTY", 
       "type": "Public",
       "district": "DENTON ISD"
     }
@@ -38,7 +38,7 @@
       "city": "ARGYLE",
       "state": "TX",
       "zip": "76266",
-      "county": "DENTON", 
+      "county": "DENTON COUNTY", 
       "type": "Public",
       "district": "DENTON ISD"
     }
@@ -59,9 +59,51 @@
       "city": "DENTON",
       "state": "TX",
       "zip": "76210",
-      "county": "DENTON", 
+      "county": "DENTON COUNTY", 
       "type": "Public",
       "district": "DENTON ISD"
+      
+    },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.073179,33.160026]
+    },
+    "properties": {
+      "title": "CORINTH MONTESSORI SCHOOL",
+      "description": "<div style='color:green;'>This should be green.</div>",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "school",
+      "street": "1300 E PECAN CREEK CIR",
+      "city": "CORINTH",
+      "state": "TX",
+      "zip": "76210",
+      "county": "DENTON COUNTY", 
+      "type": "Private",
+      "district": ""
+      
+    },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.073179,33.160026]
+    },
+    "properties": {
+      "title": "LIBERTY CHRISTIAN SCHOOL",
+      "description": "<div style='color:green;'>This should be green.</div>",
+      "marker-color": "#fc4353",
+      "marker-size": "large",
+      "marker-symbol": "school",
+      "street": "1301 S US HIGHWAY 377",
+      "city": "ARGYLE",
+      "state": "TX",
+      "zip": "76226",
+      "county": "DENTON COUNTY", 
+      "type": "Private",
+      "district": ""
       
     }
   }
