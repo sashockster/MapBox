@@ -10,7 +10,7 @@
     "properties": {
       "title": "GUYER H S",
       "description": "<div style='color:blue;'>This should be blue.</div>",
-      "marker-color": "#fc4353",
+      "marker-color": "#0061FE",
       "marker-size": "large",
       "marker-symbol": "school",
       "street": "7501 TEASLEY LN",
@@ -31,7 +31,7 @@
     "properties": {
       "title": "HARPOOL MIDDLE",
       "description": "<div style='color:red;'>This should be red.</div>",
-      "marker-color": "#fc4353",
+      "marker-color": "#0061FE",
       "marker-size": "large",
       "marker-symbol": "school",
       "street": "9601 STACEE LN",
@@ -52,7 +52,7 @@
     "properties": {
       "title": "MCNAIR EL",
       "description": "<div style='color:green;'>This should be green.</div>",
-      "marker-color": "#fc4353",
+      "marker-color": "#0061FE",
       "marker-size": "large",
       "marker-symbol": "school",
       "street": "1212 HICKORY CREEK RD",
