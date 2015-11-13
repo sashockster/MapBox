@@ -27,7 +27,7 @@ var map = L.mapbox.map('map', 'mapbox.streets')
 //    https://api.github.com/repos/gbernardo/SchoolDangers-MapBox/contents/example.geojson
 
 var featureLayer = L.mapbox.featureLayer()
-    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example.geojson')
+    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-incidents.geojson')
     .addTo(map);
 
 // Especially with dynamic data, it's useful to automatically fit all markers
