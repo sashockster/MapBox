@@ -1,9 +1,13 @@
 # SchoolDangers-MapBox
-
+==============================================
 This repository is used to impliment MapBox visualizations for School Dangers Org's public website.
 
+School Dangers Baselayers
+----------------------------------------------
 School Dangers baselayers (custom styled map backgrounds aka tiles) will be listed here in the future.
 
+School Dangers Marker Data
+----------------------------------------------
 Map marker data is stored in /beta/data or /live/data as geoJSON files.
 
 GeoJSON structure for School Dangers Map Features is as follows:
