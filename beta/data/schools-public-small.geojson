@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "features": [  
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.103456,33.135663]
+    },
+    "properties": {
+      "title": "GUYER H S",
+      "description": "<div style='color:blue;'>This should be blue.</div>",
+      "marker-color": "#0061FE",
+      "marker-size": "medium",
+      "marker-symbol": "school",
+      "street": "7501 TEASLEY LN",
+      "city": "DENTON",
+      "state": "TX",
+      "zip": "76210",
+      "county": "DENTON COUNTY", 
+      "school-type": "Public",
+      "district": "DENTON ISD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.122342,33.115626]
+    },
+    "properties": {
+      "title": "HARPOOL MIDDLE",
+      "description": "<div style='color:red;'>This should be red.</div>",
+      "marker-color": "#0061FE",
+      "marker-size": "medium",
+      "marker-symbol": "school",
+      "street": "9601 STACEE LN",
+      "city": "ARGYLE",
+      "state": "TX",
+      "zip": "76266",
+      "county": "DENTON COUNTY", 
+      "school-type": "Public",
+      "district": "DENTON ISD"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-97.120801,33.146085]
+    },
+    "properties": {
+      "title": "MCNAIR EL",
+      "description": "<div style='color:green;'>This should be green.</div>",
+      "marker-color": "#0061FE",
+      "marker-size": "medium",
+      "marker-symbol": "school",
+      "street": "1212 HICKORY CREEK RD",
+      "city": "DENTON",
+      "state": "TX",
+      "zip": "76210",
+      "county": "DENTON COUNTY", 
+      "school-type": "Public",
+      "district": "DENTON ISD"
+    }
+  }
+ ]
+}
