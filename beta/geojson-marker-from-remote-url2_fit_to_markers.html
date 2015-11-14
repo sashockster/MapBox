@@ -27,15 +27,15 @@ var map = L.mapbox.map('map', 'mapbox.streets')
 //    https://api.github.com/repos/gbernardo/SchoolDangers-MapBox/contents/example.geojson
 
 var incidents = L.mapbox.featureLayer()
-    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-incidents.geojson')
+    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/beta/data/incidents.geojson')
     .addTo(map);
 
 var schoolsPublic = L.mapbox.featureLayer()
-    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-schools-public.geojson')
+    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/beta/data/schools-public.geojson')
     .addTo(map);
 
 var schoolsPrivate = L.mapbox.featureLayer()
-    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/example-schools-private.geojson')
+    .loadURL('https://raw.githubusercontent.com/gbernardo/SchoolDangers-MapBox/master/beta/data/schools-private.geojson')
     .addTo(map);
     
 // Especially with dynamic data, it's useful to automatically fit all markers
