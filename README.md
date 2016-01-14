@@ -1,14 +1,21 @@
-# SchoolDangers-MapBox
+# SchoolDangers-MapBox      VERSION:*BETA*
 ==============================================
-This repository is used to impliment MapBox visualizations for School Dangers Org's public website.
+This repository is intended to help developers visualize School Dangers Org's school incident and school location data using the MapBox.com service.  This work will also be used by School Dangers Org's public website.
 
-School Dangers Baselayers
-----------------------------------------------
-School Dangers baselayers (custom styled map backgrounds aka tiles) will be listed here in the future.
+The current version is *BETA*, meaning we have a framework, but it is not *copy-and-paste* ready for primetime.  
 
-School Dangers Marker Data
+## School Dangers Baselayers
 ----------------------------------------------
-Map marker data is stored in /beta/data or /live/data as geoJSON files.
+School Dangers baselayers (custom styled map backgrounds aka tiles) will be listed here in the future.  For now we are using *mapbox.streets*, but plan to release a less cluttered background map to help viewers focus on schools and school incidents.
+
+## School Dangers Incident Marker Data
+----------------------------------------------
+*BETA* map marker data is stored in /beta/data as geoJSON files.
+
+Several *BETA* geoJSON files are provided as examples of data structure and size for incidents and school locations.  These files are not intended for production. For example, our geoJSON file of 100,000+ schools is 42MB and early testing has shown people fall asleep or speak crudely to their computers as the file downloads and javascript draws the markers. 
+
+The primary geoJSON file is incidents.geojson.  
+As we get closer to version 1.0, it is our intention that the live version of the file be published from our online database nightly and accessed using an api key so we can build some awesome statistics.
 
 
 ### GeoJSON structure for School Dangers Map Features (Incidents): ###
