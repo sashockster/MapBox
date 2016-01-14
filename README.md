@@ -10,7 +10,9 @@ School Dangers Marker Data
 ----------------------------------------------
 Map marker data is stored in /beta/data or /live/data as geoJSON files.
 
+
 GeoJSON structure for School Dangers Map Features is as follows:
+----------
 	Incident Markers
 		var geojson = [
 		  {
