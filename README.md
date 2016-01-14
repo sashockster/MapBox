@@ -11,7 +11,7 @@ School Dangers Marker Data
 Map marker data is stored in /beta/data or /live/data as geoJSON files.
 
 
-GeoJSON structure for School Dangers Map Features is as follows:
+### GeoJSON structure for School Dangers Map Features (Incidents): ###
 ----------
 	Incident Markers
 		var geojson = [
@@ -36,8 +36,8 @@ GeoJSON structure for School Dangers Map Features is as follows:
 		      “state”: “ST”,
 		      “facility-type”: “K-12”,
 		      "facility-subtype": "Secondary", 
-		      "perpetrator": "John Daniel Christian",
-		      "perpetrator-fate": "Not Charged",
+		      "perpetrator": "persons name",
+		      "perpetrator-fate": "Arrested",
 		      "foiled": "Yes", 
 		      "included-in-2002-report": “true/false”
 		    }
