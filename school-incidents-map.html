@@ -46,6 +46,27 @@ var incidents = L.mapbox.featureLayer()
     incidents.on('click', function(e) {
         map.panTo(e.layer.getLatLng());
     });
+    
+    //show additional info to tooltip
+    incidents.on('layeradd', function(e) {
+    var marker = e.layer,
+        feature = marker.feature;
+    var date=feature.properties["incident-date"].replace(/0:00/g, '');
+    var popupContent =  '<div>' +
+                            '<strong>' + feature.properties.title +" - " +
+                            feature.properties["incident-type"] + '</strong><br>' +
+                            feature.properties.city +', ' + feature.properties.state
+                            +' <span style="float:right;">'+date
+                            +'</span>' + feature.properties.description +'<br>'+
+                            feature.properties.casualties+" killed / " +
+                            feature.properties.injuries+" injured"
+                        '</div>';
+
+    marker.bindPopup(popupContent,{
+        closeButton: false,
+        minWidth: 500
+    });
+});
 
 </script>
 </body>
